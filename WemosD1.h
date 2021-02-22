@@ -1,7 +1,3 @@
-//MODEL PAMETNE KUCE TEMELJEN NA MIKROKONTROLERU
-//DIPLOMSKI RAD
-//MATKO BUTKOVIC
-
 //INICIJALIZACIJA KNJIZNICA POTREBNIH ZA RAD SUSTAVA
 //Knjiznica za spajanje na WiFi
 #include <ESP8266WiFi.h>
@@ -17,12 +13,12 @@
 
 //Postavljanje imena mreže i lozinke
 const char* ssid = "WLANF928B6";
-const char* password =  "mamatata14";
+const char* password =  "WiFiPassword";
 //Postavljanje MQTT protokola: ime servera i port, korsnicko ime i lozinka
 const char* mqttServer = "farmer.cloudmqtt.com";
 const int mqttPort = 18184;
 const char* mqttUser = "ltdaniau";
-const char* mqttPassword = "vWkhn8NvLHGl";
+const char* mqttPassword = "mqttPassword";
 
 //Deklaracija varijabli za I2C komunikaciju
 char receiveBuffer[255];
